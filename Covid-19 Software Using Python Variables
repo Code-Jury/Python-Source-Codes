@@ -1,0 +1,79 @@
+
+def covid19_app():
+
+    print('\t\t\t\t\t Covid 19 App')
+    print('\t\t\tWelcome to The Best Android App')
+    name = input('What is your name? ')
+    print('Hello  ' + name)
+    print('')
+    print('Welcome to  Lifesavers Health Care and  Hospital #by GSI TECH ')
+    print('')
+    print('\t\t Healthcare | Checkup   | Scan |  Surgery & operations   | Childcare '
+          ' |  Emergency services   | See a Doctor /Nurse')
+    print('\t\t Quarantine   | Complaints  | Insurance  | Drugs & Medications ')
+    print('')
+    a = input('Choose  Any option  above and press enter   ')
+    print('Loading ' + a + ' Page')
+    print('')
+    print('\t\t\t HOSPITAL BIODATA FORM')
+    b = input(' Please Input your names     First Name: ')
+    b1 = input(' Middle name: ')
+    b2 = input(' Last Name:  ')
+    name1 = b + b1 + b2
+    s = input('Country/Nationality: ')
+    s2 = input('State: ')
+    s3 = input('Local Government/County: ')
+
+    adr1 = input('Address: ')
+    adr2 = input('Street Number/Address: ')
+
+    dob1 = input('Date of birth:  ')
+    dob2 = input('Month of Birth: ')
+    dob3 = input('Year of Birth: ')
+    cy = input('Current Year:  ')
+    age = int(cy) - int(dob3)
+
+    if age < 18:
+        print(' Hello ')
+        print(' You are underage. please move to the Teens and Kids form page')
+    elif age > 17:
+        print('Welcome sir / ma')
+        print('You are an adult. Please proceed to the next Lab')
+    print('\t\t Blood  Group:  ( A	B	AB	O 	(A+   B+  AB+  O+ )')
+    bldg = input("What's  Your  Blood Group ")
+    print('\t\t Genotype:  AA AS SS SA (unknown) ')
+    gen1 = input(' Genotype :')
+    print('\t\t Relationship Status ( Single  |	Married	|	Divorced |	Widow	|	Widower ')
+    r1 = input('Relationship status: ')
+    kids1 = input('Do you have Kids / A child / Adopted / Relative? ')
+    kids2 = input('How Many Children  do you have?  ')
+    int(kids2)
+    print(
+        ' Current Working Status:  ( Employed  |  Self Employed  '
+        ' |  Part Time  |  Studying / Schooling  | \n Businessman /Woman  |'
+        '  CEO |  Government Worker  |  Military / Paramilitary  Personnel |  Not Working  | ')
+    wks = input('Work Status: ')
+    print(name1 + '    Biodata ')
+    print(name1)
+    print(s)
+    print(s2)
+    print(s3)
+    print('your address is: ' + str(adr1))
+    print(adr2)
+    print(dob1)
+    print(dob2)
+    print(dob3)
+    print('You are ' + str(age) + "years old")
+    print(bldg + ' is your  blood group. ')
+    print(gen1 + ' Is your  Genotype. ')
+    print(name1 + ' is ' + r1)
+    print(kids1)
+    print(kids2 + " Children / child")
+    print('Work Status: ' + wks)
+    print('\n \t\t\t\t Lifesavers Healthcare Center')
+    print('\t\t\t\t GSI TECHNOLOGIES  ')
+    print('\t\t\t\t\t Covid 19 App')
+    print('\t\t\tWelcome to The Best Android App')
+
+
+covid19_app()
